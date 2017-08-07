@@ -13,6 +13,7 @@
 		7463499F1F36D4CE00877353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7463499E1F36D4CE00877353 /* Assets.xcassets */; };
 		746349A21F36D4CE00877353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746349A01F36D4CE00877353 /* LaunchScreen.storyboard */; };
 		749C68751F37ED6B0016B272 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749C68741F37ED6B0016B272 /* CategoryCell.swift */; };
+		749C68771F380B530016B272 /* AppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749C68761F380B530016B272 /* AppCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		746349A11F36D4CE00877353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		746349A31F36D4CE00877353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		749C68741F37ED6B0016B272 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		749C68761F380B530016B272 /* AppCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				746349A01F36D4CE00877353 /* LaunchScreen.storyboard */,
 				746349A31F36D4CE00877353 /* Info.plist */,
 				749C68741F37ED6B0016B272 /* CategoryCell.swift */,
+				749C68761F380B530016B272 /* AppCell.swift */,
 			);
 			path = AppStore;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7463499A1F36D4CE00877353 /* FeaturedAppsController.swift in Sources */,
+				749C68771F380B530016B272 /* AppCell.swift in Sources */,
 				746349981F36D4CE00877353 /* AppDelegate.swift in Sources */,
 				749C68751F37ED6B0016B272 /* CategoryCell.swift in Sources */,
 			);
